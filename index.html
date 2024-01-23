@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Happy Camp</title>
+    <link rel="stylesheet" href="HappyCamp_styles.css" />
+</head>
+<body>
+    <div class="horizon scroll">
+        <div id="background">
+            <img src="images/HappyCamp_background_all.png" alt="" height="100%" />
+        </div>
+        <div id="welcome">
+        </div>
+        <div id="about">
+            <img src="images/HappyCamp_about.png" alt="" height="100%" />
+        </div>
+
+        <div id="emblem">
+        </div>
+
+        <div id="baden">
+        </div>
+
+        <div id="woodsign_all">
+            <img src="images/HappyCamp_woodsign_all.png" alt="" height="100%" />
+        </div>
+        <!-- CAMPING ZONE -->
+        <div id="woodsign_camping">
+            <img src="images/HappyCamp_woodsign_camping.png" alt="" height="100%" />
+        </div>
+            <div id="camping">
+                <img src="images/HappyCamp_camping.png" alt="" height="100%" />
+            </div>
+            <div id="firstaid">
+                <img src="images/HappyCamp_firstaid.png" alt="" height="100%" />
+            </div>
+            <div id="fishing">
+                <img src="images/HappyCamp_fishing.png" alt="" height="100%" />
+            </div>
+            <div id="cooking">
+                <img src="images/HappyCamp_cooking.png" alt="" height="100%" />
+            </div>
+            <div id="tentpitching">
+                <img src="images/HappyCamp_tentpitching.png" alt="" height="100%" />
+            </div>
+
+        <!-- SIGNALLING ZONE -->
+        <div id="woodsign_signalling">
+            <img src="images/HappyCamp_woodsign_signalling.png" alt="" height="100%" />
+        </div>
+            <div id="signalling">
+                <img src="images/HappyCamp_signalling_info.png" alt="" height="100%" />
+            </div>
+                <div id="signalling_girl">
+                    <img src="images/HappyCamp_signalling.png" alt="" height="100%" />
+                </div>
+                <div id="signalling_semaphore">
+                    <img src="images/HappyCamp_signalling_semaphore.png" alt="" height="100%" />
+                </div>
+                <div id="signalling_morse">
+                    <img src="images/HappyCamp_signalling_morse.png" alt="" height="100%" />
+                </div>
+                <div id="signalling_pigpen">
+                    <img src="images/HappyCamp_signalling_pigpen.png" alt="" height="100%" />
+                </div>
+
+        <!-- ADVENTURE ZONE -->
+        <div id="woodsign_adventure">
+            <img src="images/HappyCamp_woodsign_adventure.png" alt="" height="100%" />
+        </div>
+            <div id="hiking">
+                <img src="images/HappyCamp_hiking.png" alt="" height="100%" />
+            </div>
+
+        <!-- AQUATICS ZONE -->
+        <div id="woodsign_aquatics">
+            <img src="images/HappyCamp_woodsign_aquatics.png" alt="" height="100%" />
+        </div>
+            <div id="aquatics">
+                <img src="images/HappyCamp_aquatics.png" alt="" height="100%" />
+            </div>
+    
+        
+        
+
+    </div>
+    <div class="front scroll ">
+        <img src="images/HappyCamp_boy2.gif" alt="" height="100%" />
+    </div>
+
+
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        
+            {
+            height: 10000 ,                   
+            onScroll: function(percent) { 
+                console.log(percent);
+            }
+        });
+    }(jQuery));
+    </script>
+</body>
+</html>
